@@ -3,19 +3,14 @@
     padding: 0;
 }
 body{
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.548),rgba(0, 0, 0, 0.466)), url('images/castle.webp');;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: black; */
     background-color: black;
     color: #e8e2e2;
-    font-family: 'Noto Sans KR', sans-serif;
 }
 h1, h2, h3, h4, h5, h6{
-    display: block;
     font-family: 'Itim', cursive;
     text-align: center;
+    color: #fa8686;
+    font-weight: 600;
 }
 a{
     text-decoration: none;
@@ -24,121 +19,58 @@ a{
 p{
     font-weight: 550;
     text-align: justify;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 17.3px;
 }
+/* img{
+    width: 100%;
+} */
 .wrapper{
-    width: 85%;
-    margin: 0 auto;
-    overflow: hidden;
+    width: 100%;
 }
-.half-width{
-    width: 50%;
-    height: auto;
-    overflow: hidden;
-}
-.d-block{
-    display: block;
-}
-.d-flex{
-    display: flex;
-}
-/* font-family: 'Itim', cursive;
-font-family: 'Noto Sans KR', sans-serif; */
 .header{
     text-align: center;
+    margin: 0 auto;
 }
 .harry-potter-logo{
-    width: 500px;
+    width: 100%;
     margin: 0 auto;
 }
 .writer{
-    font-family: 'Itim', cursive;
-    color: #abeee8;
+    color: aqua;
 }
 .description{
-    text-align: justify;
-    margin: 50px 15px;
-    box-shadow: 5px 5px 20px #fff;
-    /* padding: 40px; */
+    box-shadow: 3px 3px 25px #fff;
+    overflow: hidden;
+    border-radius: 5px;
 }
-.description h1{
-    text-align: center;
-    /* padding: 20px; */
-    color: #ff9494;
-}
-.about-harry-potter{
-    padding: 40px 20px;
-}
-.intro{
-    text-align: center;
+.all-books{
+    bottom: 16.5%;
+    position: absolute;
 }
 .all-books-img{
-    width: 50%;
-}
-.all-books-img img{
-    width: 81%;
-    margin: 65px;
+    width: 100%;
     border: 4px dashed #99d3e0;
 }
-.all-books-heading{
-    margin: 30px;
-}
-.book-name{
-    margin: 20px;
-}
-.part-description{
-}
-.part-single{
-    box-shadow: 5px 5px 20px #fff;
-    margin: 70px 15px;
-    padding: 10px 15px 52px 15px;
+.btn-container{
     
 }
-.left-part{
-    width: 65%;
-    margin: 5px 30px;
+.single-book-btn{
+    background-image: linear-gradient(25deg, #fa401f, #f88c80);
+    color: #fff;
+    font-size: 19px;
+    width: 145px;
 }
-.right-part{
-    width: 35%;
-    margin: 5px 30px;
+.single-book-btn:hover{
+    background-image: linear-gradient(150deg, #2fe2fa, #00ff95);
+    color: #ece5e5;
 }
 .book-img-single{
     width: 100%;
     height: 100%;
-    margin-top: 19px;
-    border: 1px dashed #8c8384;
+    border: 1px dashed;
 }
-.buy-book-btn{
-    text-decoration: none;
-    width: 69px;
-    background-image: linear-gradient(tomato, salmon);
-    color: #fff;
-    padding: 13px 48px;
-    margin: 20px 2px;
-    border-radius: 3px;
-    display: inline;
-}
-.read-book-btn{
-    text-decoration: none;
-    width: 76px;
-    background-image: linear-gradient(tomato, salmon);
-    color: #fff;
-    padding: 13px 48px;
-    margin: 20px 2px;
-    border-radius: 3px;
-    display: inline;
-}
-.watch-btn{
-    text-decoration: none;
-    width: 76px;
-    background-image: linear-gradient(tomato, salmon);
-    color: #fff;
-    padding: 13px 48px;
-    margin: 20px 2px;
-    border-radius: 3px;
-    display: inline;
-}
-.cart{
-    width: 20px;
-    margin: 3px 0px 0px -30px;
-    position: absolute;
+.single-book{
+    box-shadow: 3px 3px 25px #fff;
+    padding: 10px 15px 52px 15px;
 }
